@@ -1,0 +1,8 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+
+# Notas locales
+commit.md
+Caso_Practico_CUDA*.pdf

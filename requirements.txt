@@ -1,0 +1,8 @@
+numpy
+pandas
+pyarrow
+astropy
+scikit-learn
+matplotlib
+requests
+cupy-cuda13x
