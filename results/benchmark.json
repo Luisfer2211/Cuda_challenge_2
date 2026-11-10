@@ -1,0 +1,166 @@
+{
+  "n_total": 38601643,
+  "min_samples": 10,
+  "eps_percentile": 0.2,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "mem_gb": 4.0,
+    "sms": 16,
+    "cuda_runtime": 13020,
+    "cupy": "14.2.0"
+  },
+  "cpu": {
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "threads": 12,
+    "python": "3.13.12",
+    "sklearn": "1.9.1"
+  },
+  "scales": {
+    "1x": {
+      "tiles": [
+        0,
+        10,
+        20
+      ],
+      "n": 3726142,
+      "gpu_batches": 1,
+      "t_cpu_s": 40.69565760018304,
+      "t_gpu_s": 0.6683829000685364,
+      "t_gpu_runs_s": [
+        0.7107383001130074,
+        0.6582660002168268,
+        0.7309946999885142,
+        0.6642687001731247,
+        0.6683829000685364
+      ],
+      "t_gpu_kernels_s": 0.40194665718078615,
+      "t_transfer_s": 0.02810976028442383,
+      "transfer_frac": 0.0420563725995106,
+      "gpu_stages_s": {
+        "transfer_h2d": 0.02091916847229004,
+        "grid_sort": 0.01633897590637207,
+        "core_points": 0.17876480102539063,
+        "union_find": 0.03256320190429687,
+        "border_labels": 0.17427967834472657,
+        "transfer_d2h": 0.007190591812133789
+      },
+      "speedup": 60.88674260818175,
+      "speedup_without_transfer": 63.55983887424171,
+      "ari_cpu_vs_gpu": 0.9999995640269891,
+      "clusters_cpu": 642,
+      "clusters_gpu": 642,
+      "noise_agreement": 1.0
+    },
+    "3x": {
+      "tiles": [
+        0,
+        1,
+        2,
+        10,
+        11,
+        12,
+        20,
+        21,
+        22
+      ],
+      "n": 9943709,
+      "gpu_batches": 1,
+      "t_cpu_s": 98.76914549991488,
+      "t_gpu_s": 1.9194514998234808,
+      "t_gpu_runs_s": [
+        2.2137243000324816,
+        1.9035348000470549,
+        1.9194514998234808,
+        1.9475472997874022,
+        1.8944381000474095
+      ],
+      "t_gpu_kernels_s": 1.1114122238159179,
+      "t_transfer_s": 0.09893757057189942,
+      "transfer_frac": 0.051544709819965784,
+      "gpu_stages_s": {
+        "transfer_h2d": 0.07766397094726563,
+        "grid_sort": 0.0402949104309082,
+        "core_points": 0.5040609130859375,
+        "union_find": 0.061292545318603515,
+        "border_labels": 0.5057638549804687,
+        "transfer_d2h": 0.02127359962463379
+      },
+      "speedup": 51.45696336114668,
+      "speedup_without_transfer": 54.25344124695556,
+      "ari_cpu_vs_gpu": 0.9999999055887786,
+      "clusters_cpu": 1339,
+      "clusters_gpu": 1339,
+      "noise_agreement": 1.0
+    },
+    "10x": {
+      "tiles": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "n": 38601643,
+      "gpu_batches": 3,
+      "t_cpu_s": 412.91664759931155,
+      "t_gpu_s": 8.339478499954566,
+      "t_gpu_runs_s": [
+        8.527369400020689,
+        8.327814599964768,
+        8.271913300035521,
+        8.339478499954566,
+        8.350081800017506
+      ],
+      "t_gpu_kernels_s": 4.461198299407958,
+      "t_transfer_s": 0.3795590991973877,
+      "transfer_frac": 0.04551352931714561,
+      "gpu_stages_s": {
+        "transfer_h2d": 0.282936408996582,
+        "grid_sort": 0.16213724899291992,
+        "core_points": 2.0631787109374997,
+        "union_find": 0.26154786682128905,
+        "border_labels": 1.97433447265625,
+        "transfer_d2h": 0.09662269020080566
+      },
+      "speedup": 49.51348547772635,
+      "speedup_without_transfer": 51.874475960150214,
+      "ari_cpu_vs_gpu": 0.9999998919016658,
+      "clusters_cpu": 7267,
+      "clusters_gpu": 7267,
+      "noise_agreement": 1.0
+    }
+  },
+  "t_validate_s": 4.2578072000760585,
+  "validation": {
+    "clusters_found": 2911,
+    "matched_known": 1255,
+    "known_in_region": 1837,
+    "known_recovered": 1159,
+    "candidates_new": 1656
+  }
+}
